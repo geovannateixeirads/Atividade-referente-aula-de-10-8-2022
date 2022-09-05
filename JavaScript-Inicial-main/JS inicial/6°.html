@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script lang="javascript">
+    var media, n, contador = 1 , somador = 1 ; 
+    do
+    { 
+       n = parseInt(window.prompt("Informe o " + contador + "° número para calcular a média geométrica","0")); 
+       somador = somador * n 
+       contador = contador + 1
+    }
+    while (contador <= 2)
+    media = Math.pow(somador, 1.0 / contador);
+    document.write("<h1>A média geométrica dos 2 números anteriormente informados é de: " + media + "</h1>"); 
+    document.write("<a href=7°.html>" + "7°" + "</a>");
+</script>   
+</body>
+</html>

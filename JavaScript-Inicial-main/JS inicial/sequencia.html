@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script lang="javascript">
+    var area, altura, base; 
+    altura = parseInt(window.prompt("Informe a altura do retângulo","0"));
+    base = parseInt(window.prompt("Informe a base do retângulo","0"));
+    do
+        altura = parseInt(window.prompt("Digite a altura do retângulo novamente, ela deverá ser menor que a base","0"));  
+    while (base <= altura)
+    area = base * altura;
+    document.write("<h1>A área do retângulo, medido a partir de sua base e altura, será de: " + area + "</h1>");
+    
+    
+</script>   
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script lang="javascript">
+    var area, aresta; 
+    aresta = parseInt(window.prompt("Informe a aresta do quadrado","0"));
+    area = aresta * aresta;
+    document.write("<h1>A área do quadrado, medido a partir de suas arestas, será de: " + area + "</h1>");
+    
+    
+</script>   
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script lang="javascript">
+    var area, aresta; 
+    aresta = parseInt(window.prompt("Informe a aresta do quadrado","0"));
+    area = aresta * aresta;
+    document.write("<h1>A área do quadrado, medido a partir de suas arestas, será de: " + area + "</h1>");
+    
+    
+</script>   
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script lang="javascript">
+    var area, aresta; 
+    diagonal = parseInt(window.prompt("Informe a diagonal do quadrado","0"));
+    area = (diagonal * diagonal)/2  ;
+    document.write("<h1>A área do quadrado, medido a partir de suas diagonais, será de: " + area + "</h1>");
+    
+    
+</script>   
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script lang="javascript">
+    var area, altura, base; 
+    altura = parseInt(window.prompt("Informe a altura do triângulo","0"));
+    base = parseInt(window.prompt("Informe a base do triângulo","0"));
+    area = base * altura /2;
+    document.write("<h1>A área do triângulo, medido a partir de sua base e altura, será de: " + area + "</h1>");
+    
+    
+</script>   
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script lang="javascript">
+    var media, n1, n2, n3, n4; 
+    n1 = parseInt(window.prompt("Informe o 1° número","0"));
+    n2 = parseInt(window.prompt("Informe o 2° número","0"));
+    n3 = parseInt(window.prompt("Informe o 3° número","0"));
+    n4 = parseInt(window.prompt("Informe o 4° número","0"));
+    media = (n1 + n2 + n3 + n4) / 4;
+    document.write("<h1>A média aritmética dos 4 números anteriormente informados é de: " + media + "</h1>"); 
+</script>   
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script lang="javascript">
+    var media, n, contador = 1 , somador = 1 ; 
+    do
+    { 
+       n = parseInt(window.prompt("Informe o " + contador + "° número para calcular a média geométrica","0")); 
+       somador = somador * n 
+       contador = contador + 1
+    }
+    while (contador <= 2)
+    media = Math.pow(somador, 1.0 / contador);
+    document.write("<h1>A média geométrica dos 2 números anteriormente informados é de: " + media + "</h1>"); 
+</script>   
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script lang="javascript">
+    var quantidade, km, milha ; 
+       quantidade = parseInt(window.prompt("Informe a quantidade de milhas maritimas que deseja converter","0")); 
+    milha = quantidade * 1852
+    km = milha / 1000
+    document.write("<h1>A quantidade de milhas informadas anteriormente convertidas em quilometros é de: " + km + "</h1>")
+</script>   
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script lang="javascript">
+    var Celsius, Fahrenheit; 
+    Celsius = parseInt(window.prompt("Informe a temperatura em CELSIUS para converter: ", "0"));
+    Fahrenheit = (9*Celsius/5) + 32;
+    document.write("<h1>A temperatura em Fahrenheit convertidas a partir da temperatura em Celsius anteriormente informada é de: " + Fahrenheit + "</h1>")
+</script>   
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script lang="javascript">
+    var n2 , n1 ; 
+       n1 = parseInt(window.prompt("Informe o 1° número para mostrar o maior","0")); 
+       n2 = parseInt(window.prompt("Informe o 2° número para mostrar o maior","0"));   
+    
+    if (n1 > n2) 
+    document.write("<h1>O maior dos dois números informados é o: " + n1 + "</h1>")
+    else
+    document.write("<h1>O maior dos dois números informados é o: " + n2 + "</h1>")
+</script>   
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script lang="javascript">
+    var n2 , n1 ; 
+       n1 = parseInt(window.prompt("Informe o 1° número para mostrar o maior","0")); 
+       n2 = parseInt(window.prompt("Informe o 2° número para mostrar o maior","0")); 
+    if(n1 = n2)  
+    document.write("<h1>Os dois números são iguais</h1>")
+    if (n1 > n2) 
+    document.write("<h1>O maior dos dois números informados é o: " + n1 + "</h1>")
+    else
+    document.write("<h1>O maior dos dois números informados é o: " + n2 + "</h1>")
+</script>   
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var n2 , n1 ; 
+       n1 = parseInt(window.prompt("Informe a 1° nota","0")); 
+       n2 = parseInt(window.prompt("Informe a 2° nota","0")); 
+    media=(n1+2*n2)/2
+
+    
+    
+    
+    if (media >= 6) 
+    document.write("<h1>Parabéns, você está aprovado</h1>")
+    else
+    document.write("<h1>Sinto muito, você está reprovado!!! </h1>")
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var p , a ; 
+       p = parseInt(window.prompt("Informe o seu peso ","0")); 
+       a = parseFloat(window.prompt("Informe a sua altura","0")); 
+    media=p/(a*a);
+    if (media < 20) 
+    document.write("<h1>Você está abaixo do peso</h1>")
+    else if ((media >= 20) && (media < 25)) 
+    document.write("<h1>Parabéns, você está no peso ideal</h1>")
+    else if (media >= 25) 
+    document.write("<h1>Sinto muito, você está acima do peso</h1>")
+   
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script lang="javascript">
+    var n1 , n2, n3, positivo = 0 ; 
+       n1 = parseInt(window.prompt("Informe o 1° valor","0")); 
+       n2 = parseInt(window.prompt("Informe o 2° valor","0")); 
+       n3 = parseInt(window.prompt("Informe o 3° valor","0"));
+
+    if(( n1 < n2 + n3 ) && ( n2 < n1 + n3 ) && ( n3 < n1 + n2 ))
+    {
+    positivo++
+    document.write("<h1>É um triângulo, do tipo: </h1>")
+    }
+    else
+    document.write("<h1>Não é um triângulo</h1>")
+    if(positivo == 1)
+    {
+    if((n1 != n2) && (n2 != n3) && (n1 != n3))  
+    document.write("<h1>escaleno</h1>")
+    if ((n1 == n2) && (n1 != n3) || (n1 == n3) && (n1 != n2) || (n2 == n3) && (n1 != n2))
+    document.write("<h1>isósceles</h1>")
+    if((n1 == n2) && (n1 == n3))
+    document.write("<h1>equilátero</h1>")
+    }
+
+</script>   
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<script lang="javascript">
+    var n1 , n2, n3, positivo = 0 ; 
+       n1 = parseInt(window.prompt("Informe o 1° valor","0")); 
+       n2 = parseInt(window.prompt("Informe o 2° valor","0")); 
+       n3 = parseInt(window.prompt("Informe o 3° valor","0"));
+ if(((n1>n2) && (n2>n3)) || ((n2>n1) && (n3>n1)) || ((n3>n2) && (n2>n1)) || ((n3>n1) && (n1>n2)) || ((n2>n1) && (n1>n3)) || ((n1>n3) && (n3>n2)))
+ {
+   
+    document.write("<h1>É um triângulo, do tipo: retângulo</h1>")
+    
+ }
+ else{
+    document.write("<h1>Não é um triângulo retângulo, digite valores válidos</h1>")
+ }
+
+  //n1 = 5
+  //n2 = 3
+  //n3 = 4 
+    
+</script>   
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var i;
+    
+    for(i = 1; i <= 10; i++)
+    {
+        document.write("<h1>5 x "+ i + " = " + i*5 + "</h1>");
+    }
+    document.write(" ");
+</script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var i;
+    do
+  
+    a= parseInt(window.prompt("Digite um valor positivo"));
+    while(a<1);
+    for(i = 1; i <= 10; i++)
+    {
+        document.write("<h1>" + a + " x "+ i + " = " + i*a + "<br>" + "</h1>");
+    }
+    document.write(" ");
+</script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=script, initial-scale=1.0">
+    <title>20220811 - 18</title>
+    <style>
+      table
+      {
+        display: inline-block;
+      }
+    </style>
+</head>
+<body>
+    <script lang="javascript">
+        function tabuada(...args) 
+        {
+          for (const number of args) 
+          {
+            construirTabuada(number);
+          }
+        }
+        
+        function construirTabuada(numero) 
+        {
+          let color_tr; 
+
+          document.write("<table border='1px' style='margin: 30px'>");
+
+          color_tr = "#ccc";
+          document.write("<tr style='background-color: " + color_tr + "'><td>Multiplicando</td><td>Resultado</td></tr>");
+
+          for (let i = 1; i <= 10; i++) 
+          {
+            document.write("<tr><td>" + i + "</td><td>" + i * numero + "</td></tr>");
+          }
+
+            document.write("</table>"); 
+          }
+
+
+tabuada(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20);
+
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script lang="javascript">
+        var r = 0;
+
+        for (i = 0; i <= 100; i++)
+        {
+         
+         if(i%2 == 0)
+         {
+            r = r + i;
+         }
+        
+        }
+
+        document.write("<h1>A soma dos números positivos de 0 a 100 é: " + r + "</h1>");
+
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+ var fibonacci = [];
+fibonacci[0] = 0;
+fibonacci[1] = 1;
+for (var i = 2; i < 30; i++) {
+  fibonacci[i] = fibonacci[i - 2] + fibonacci[i - 1];
+  
+}
+document.write("<h1>" + fibonacci + "</h1>");
+document.write("<a href=homepage.html>" + "Homepage" + "</a>");
+</script>
+</body>
+</html>
